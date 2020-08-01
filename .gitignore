@@ -1,0 +1,4 @@
+# Project exclude paths
+/.idea/
+/study-redis-springcache/target/
+/target/

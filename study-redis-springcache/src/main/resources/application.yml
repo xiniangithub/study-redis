@@ -1,0 +1,16 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /study-redis-springcache
+
+spring:
+  cache:
+    type: redis
+    redis:
+      time-to-live: 60000 # 缓存超时时间，单位ms
+      cache-null-values: false # 是否缓存null值
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    timeout: 10000
+#    password: 123456
